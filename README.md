@@ -1,7 +1,6 @@
 # CakePHP Filepicker Plugin
 
 This plugin is to help make using filepicker.io even easier with cakePHP.
-Link to see it in action [somewhere](somewhere)
 
 ## Installation
 
@@ -19,7 +18,7 @@ Link to see it in action [somewhere](somewhere)
 
 #### 4. Set up your configuration file
 
-- Create an account at [Filepicker.io](https://www.filepicker.io) and get an apikey.
+- Create an account at [Filepicker.io](https://developers.filepicker.io/register/) and get an apikey.
 - Copy the example file from `app/Plugin/Filepicker/Config/filepicker.php.example` to `app/Config/filepicker.php`
 
         $config = array(
@@ -57,4 +56,3 @@ For more options to put into the array, [look at the filepicker documentation on
 
 It will put a url into your form, which you can store into your database.
 
-## Demo Application
