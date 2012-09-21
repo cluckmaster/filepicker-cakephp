@@ -10,10 +10,11 @@ This plugin is to help make using filepicker.io even easier with cakePHP.
 
 #### 2. Including the Plugin
 - [Download the latest version](https://github.com/Filepicker/filepicker-cakephp/zipball/master), extract/uncompress it, and move it into `app/Plugin/Filepicker/`
-- Clone the repo ito the 'app/Plugin/Filepicker/' folder.
+- Clone the repo ito the `app/Plugin/Filepicker/` folder.
 
-From the 'app/Plugin' folder: 
-    git clone git@github.com:Filepicker/filepicker-cakephp.git Filepicker/
+    From the 'app/Plugin' folder: 
+
+        git clone git@github.com:Filepicker/filepicker-cakephp.git Filepicker/
 
 #### 3. Load the plugin in your `app/Config/bootstrap.php` file:
 
