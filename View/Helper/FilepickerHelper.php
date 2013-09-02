@@ -7,7 +7,7 @@ class FilepickerHelper extends AppHelper {
 	function scriptTag() {
 		$apikey = FilepickerInfo::getConfig($key = 'apikey');
 
-		$out[] = $this->Html->script('http://api.filepicker.io/v0/filepicker.js');
+		$out[] = $this->Html->script('http://api.filepicker.io/v1/filepicker.js');
 		$out[] = $this->Html->scriptBlock("filepicker.setKey('$apikey')");
 		return implode("\n", $out);
 	}
