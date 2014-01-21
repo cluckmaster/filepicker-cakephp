@@ -12,7 +12,7 @@ This plugin is to help make using filepicker.io even easier with cakePHP.
 - [Download the latest version](https://github.com/Filepicker/filepicker-cakephp/zipball/master), extract/uncompress it, and move it into `app/Plugin/Filepicker/`
 - Clone the repo ito the `app/Plugin/Filepicker/` folder.
 
-    From the 'app/Plugin' folder: 
+    From the 'app/Plugin' folder:
 
         git clone git@github.com:Filepicker/filepicker-cakephp.git Filepicker/
 
@@ -43,17 +43,17 @@ Add the Filepicker helper to your app controller.
 
 #### 6. Install the script tag
 
-Insert the script tag into your view. For best performance, you should insert it at the end of the body, before the `</body>` tag.
+Insert the script tag into your view or layout. For best performance, you should insert it at the end of the body, before the `</body>` tag.
 
      <?php
-     echo $this->filepicker->scriptTag();
+     echo $this->Filepicker->scriptTag();
 
 #### 7. Use it.
 
 Where ever you have your form, you can insert a filepicker type tag.
 
     echo $this->Form->input('attachment', array(
-        'type' => 'filepicker', 
+        'type' => 'filepicker',
         'data-fp-mimetypes' => "*/*",
     ));
 
